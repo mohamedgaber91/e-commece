@@ -1,0 +1,39 @@
+@import "./style.css";
+
+.wishlist-section {
+  margin-bottom: 100px;
+}
+.wishlist-card {
+  border-bottom-color: var(--darker-gray);
+}
+
+.wishlist-card:last-child {
+  border-bottom: none !important;
+}
+
+.wishlist-card-cancel {
+  color: var(--darker-gray);
+  transition: 0.2s all ease-in-out;
+}
+.wishlist-card-cancel:hover {
+  color: var(--red);
+}
+.wishlist-card-header a {
+  transition: 0.2s all ease-in-out;
+}
+.wishlist-card-header a:hover {
+  color: var(--darker-gray) !important;
+}
+.wishlist-card-select,
+.wishlist-card-details {
+  transition: 0.2s all ease-in-out;
+}
+.wishlist-card-details a {
+  color: #000;
+}
+.wishlist-card-details a:hover {
+  color: var(--darker-gray);
+}
+.wishlist-card-select:hover {
+  outline: 3px solid black;
+}
